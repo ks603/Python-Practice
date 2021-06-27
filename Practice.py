@@ -20,3 +20,11 @@ elif age > 2000:
     print('Not a human')
 elif age > 100:
     print('test')
+
+
+print('Entet a name')
+name = input()
+if name:
+    print('Thanks for entering your name')
+else:
+    print('You did not enter a name')
