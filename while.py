@@ -23,3 +23,16 @@ while spam < 5:
     if spam == 3:
         continue
     print('spam is ' + str(spam))
+
+
+x = 0
+while x < 100:
+    x = x + 1
+    if (x % 3 == 0) and (x % 5 == 0):
+        print('fizzbuzz')
+    elif x % 3 == 0:
+        print('fizz')
+    elif x % 5 == 0:
+        print('buzz')
+    else:
+        print(x)
